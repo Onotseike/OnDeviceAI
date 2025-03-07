@@ -1,0 +1,10 @@
+﻿global using Plugin.Maui.Audio;
+global using Maui.Plugins.PageResolver;
+global using CommunityToolkit.Maui;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using MAUI.App.ViewModels;
+global using MAUI.App.Views;
+global using System.Collections.ObjectModel;
+global using System.Diagnostics;
+global using System.Threading.Tasks;

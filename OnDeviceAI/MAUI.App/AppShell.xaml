@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+	x:Class="MAUI.App.AppShell"
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:local="clr-namespace:MAUI.App"
+	xmlns:views="clr-namespace:MAUI.App.Views">
+
+	<TabBar>
+		<ShellContent
+			Title="Text"
+			Icon="iconblank.png"
+			ContentTemplate="{DataTemplate views:TextPage}" />
+		<ShellContent
+			Title="Audio"
+			Icon="iconmediaelement.png"
+			ContentTemplate="{DataTemplate views:AudioPage}" />
+		<ShellContent
+			Title="Image"
+			Icon="iconmediaelement.png"
+			ContentTemplate="{DataTemplate views:ImagePage}" />
+		<ShellContent
+			Title="Video"
+			Icon="iconmediaelement.png"
+			ContentTemplate="{DataTemplate views:VideoPage}" />
+		<ShellContent
+			Title="MultiModal"
+			Icon="icondrawing.png"
+			ContentTemplate="{DataTemplate views:MultiModalPage}" />
+	</TabBar>
+</Shell>
